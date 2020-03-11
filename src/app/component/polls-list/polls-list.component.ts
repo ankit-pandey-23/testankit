@@ -5,7 +5,7 @@ import { DialogComponent } from '../dialog/dialog.component';
 import { HitsService} from '../../services/hits.service';
 import { Subscription, timer } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
-import { Hits,ApiResult} from '../../modals/modals';
+import { Hits,ApiResult} from '../../modal/modals';
 
 @Component({
   selector: 'app-polls-list',
