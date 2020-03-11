@@ -30,6 +30,7 @@ import { DialogComponent } from './component/dialog/dialog.component';
     ])
   ],
   providers: [],
-  bootstrap: [AppComponent,DialogComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [DialogComponent]
 })
 export class AppModule { }
